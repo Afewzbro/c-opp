@@ -1,0 +1,1 @@
+std::for_each(std::begin(table), std::end(table),[](auto &row) { std::fill(std::begin(row), std::end(row), 0); });
